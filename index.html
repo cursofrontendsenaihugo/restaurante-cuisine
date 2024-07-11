@@ -5,17 +5,19 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Restaurante | Cuisine</title>
+  <title>Restaurante | Caos</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
   <link href="img/favicon.png" rel="icon">
-  
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-  <!-- Arquivos da net CSS  // vendor = fornecedor web -->  
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Arquivos da net CSS  // vendor = fornecedor web -->
   <link href="vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="vendor/aos/aos.css" rel="stylesheet">
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -27,44 +29,157 @@
   <!-- Template Main CSS -->
   <link href="css/style.css" rel="stylesheet">
 
-
 </head>
 
 <body>
 
-  <!-- Barra Superior - TOP Bar -->
+  <!-- Barra Superior - TOP BAR -->
   <div id="topbar" class="d-flex align-items-center fixed-top">
     <div class="container d-flex justify-content-center justify-content-md-between">
+
       <div class="contact-info d-flex align-items-center">
-        <a href="#" target="_blank"> <i class="bi bi-whatsapp d-flex align-items-center"> <span>(11) 97822-5899</span></i></a>
-        <i class="bi bi-clock d-flex align-items-center ms-4"> <span> Ter-Sab: 11AM - 23PM</span></i>
-      </div> <!-- fim contact-info d-flex align-items-center -->
-    </div> <!-- fim container d-flex justify-content-center justify-content-md-between -->
-  </div> <!-- fim id="topbar" class="d-flex align-items-center fixed-top" -->
+        <i class="bi bi-whatsapp d-flex align-items-center"> 
+          <span>(11) 9 8765 - 4321 </span>
+        </i>
 
-  <!-- HEADER -->
+        <i class="bi bi-clock d-flex align-items-center ms-4"> 
+          <span>Ter-Sab: 11AM - 23PM </span>
+        </i>
+      </div>
 
+    </div>
+  </div>
+
+  <!-- ========= HEADER =========  -->
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-center-lg-between">
-      <h1 class="logo me-auto me-lg-0"> <a href="#"> Cuisine </a></h1>
+
+      <h1 class="logo me-auto me-lg-0">
+        <a href="#"> Caos </a>
+      </h1>
+      <!-- <a href="#" class="logo me-auto me-lg-0">
+        <img src="img/logo.png" alt="" class="img-fluid">
+      </a> -->
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a href="#hero" class="nav-link scrollto active">Home</a></li>
-          <li><a href="#about" class="nav-link scrollto active">Sobre</a></li>
-          <li><a href="#menu" class="nav-link scrollto active">Menu</a></li>
-          <li><a href="#specials" class="nav-link scrollto active">Especiais</a></li>
-          <li><a href="#events" class="nav-link scrollto active">Eventos</a></li>
-          <li><a href="#chefs" class="nav-link scrollto active">Chefes</a></li>
-          <li><a href="#contact" class="nav-link scrollto active">Contato1</a></li>
-      </ul> <!-- fim ul -->
+          <li>
+            <a href="#hero" class="nav-link scrollto active">Home</a>
+          </li>
+          <li>
+            <a href="#about" class="nav-link scrollto"> Sobre </a>
+          </li>
+          <li>
+            <a href="#menu" class="nav-link scrollto"> Cardapio </a>
+          </li>
+          <li>
+            <a href="#specials" class="nav-link scrollto"> Especiais </a>
+          </li>
+          <li>
+            <a href="#events" class="nav-link scrollto"> Eventos </a>
+          </li>
+          <li>
+            <a href="#chefs" class="nav-link scrollto"> Chefes </a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-link scrollto"> Contato</a>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"> </i>
       </nav>
+      <a href="#book-a-table" class="book-a-table-btn scrollto d-none d-lg-flex">
+        Reservas
+      </a>
+
     </div>
-  </header>
+  </header> 
+
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
+
+      <div class="row">
+        <div class="col-lg-8">
+          <h1>Bem vindo ao <span>Restaurante CAOS</span> </h1>
+          <h2> Entregando boa comida por mais de 18 anos! </h2>
+
+          <div class="btns">
+            <a href="#menu" class="btn-menu animated fadeInUp scrollto"> Cardapio </a>
+            <a href="#book-a-table" class="btn-book animated fadeInUp scrollto"> Reservas </a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200">
+
+          <a href="https://www.youtube.com/watch?v=u6BOC7CDUTQ" class="glightbox play-btn"></a>
+        </div>
+      </div>
+    </div>
+  </section> <!-- fim HERO -->
+
+  <main id="main">
+
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <figure class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
+            <div class="about-img"> <img src="img/about.jpg" alt=""> </div>
+          </figure> <!-- fim figure col-lg-6 order-1 order-lg-2 -->
+
+          <aside class="col-lg-6 pt-lg-0 order-2 order-lg-1 content">
+            <h3> Sobre Nós! <br> Lorem ipsum dolor sit amet consectetur. </h3>
+            <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia repellendus accusantium et itaque aut ratione possimus!</p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i>Visão: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus aliquam corrupti, quia quo quibusdam unde.</li>
+              <li><i class="bi bi-check-circle"></i>Missão: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus aliquam corrupti, quia quo quibusdam unde.</li>
+              <li><i class="bi bi-check-circle"></i>Valores: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus aliquam corrupti, quia quo quibusdam unde.</li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis id quisquam eaque maiores, fugit ea nostrum, nulla vero, necessitatibus totam dolorum deleniti nisi! Autem, sint consequuntur unde beatae doloremque repellendus?</p>
+          </aside>
+        </div> <!-- fim div row -->
+      </div> <!-- fim div container -->
+    </section> <!-- fim SOBRE -->
+
+    <section id="why-us" class="why-us">
+      <div class="container">
+        <div class="section-title">
+          <h2> Por que nós? </h2>
+          <p> Por que escolher nosso restaurante? </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="box" data-aos="zoom-in" data-aos-delay="100">
+              <span>01</span> <h4>Qualidade 01</h4> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quia, veritatis sequi libero quas quam excepturi ad nulla!</p>
+            </div>
+          </div> <!-- fim div col-lg-4 -->
+
+          <div class="col-lg-4">
+            <div class="box" data-aos="zoom-in" data-aos-delay="200">
+              <span>02</span> <h4>Qualidade 02</h4> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quia, veritatis sequi libero quas quam excepturi ad nulla!</p>
+            </div>
+          </div> <!-- fim div col-lg-4 -->
+
+          <div class="col-lg-4">
+            <div class="box" data-aos="zoom-in" data-aos-delay="300">
+              <span>03</span> <h4>Qualidade 03</h4> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quia, veritatis sequi libero quas quam excepturi ad nulla!</p>
+            </div>
+          </div> <!-- fim div col-lg-4 -->
+
+        </div> <!-- fim div row -->
+      </div> <!-- fim container -->
+    </section> <!-- fim why us -->
+
+
+
+  </main> <!-- fim MAIN -->
+
+  <footer class="footer">
+
+  </footer>
 
   <div id="preloader"></div>
-  <a href="#" class="back-to-top- d-flex align-items-center justify-content-center"> <i class="bi bi-arrow-up-short"></i></a>
-
-  
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"> </i>
+  </a>
 
   <!-- Vendor JS Files -->
   <script src="vendor/aos/aos.js"></script>
